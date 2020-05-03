@@ -1,0 +1,24 @@
+{
+   "person1": {
+      "firstname": "John",
+      "gender": "M",
+      "age": 20,
+      "profession": "teacher",
+      "id": 1
+   },
+   "person2": {
+      "firstname": "Jane",
+      "gender": "F",
+      "age": 25,
+      "profession": "librarian",
+      "id": 2
+   },
+   "person3": {
+      "firstname": "Cristiano",
+      "lastname": "Ronaldo",
+      "gender": "M",
+      "age": 35,
+      "profession": "football player",
+      "id": 3
+   }
+}
