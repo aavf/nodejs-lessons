@@ -1,0 +1,42 @@
+{
+   "photo1": {
+      "id": 1,
+      "uploader": "Maria",
+      "title": "one",
+      "likes": 20,
+      "tags": [
+         "tag1",
+         "tag1b"
+      ]
+   },
+   "photo2": {
+      "id": 2,
+      "uploader": "Manel",
+      "title": "two",
+      "likes": 25,
+      "tags": [
+         "tag2",
+         "tag2b"
+      ]
+   },
+   "photo3": {
+      "id": 3,
+      "uploader": "Cristiano",
+      "title": "Ronaldo photo",
+      "likes": 35,
+      "tags": [
+         "tag3",
+         "tag3b"
+      ]
+   },
+   "photo4": {
+      "id": 4,
+      "uploader": "Cristiano",
+      "title": "Ronaldo 2nd photo",
+      "likes": 30,
+      "tags": [
+         "tag4",
+         "tag4b"
+      ]
+   }
+}

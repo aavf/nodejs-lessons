@@ -1,0 +1,46 @@
+{
+  "photo1": {
+    "id": 1,
+    "uploader": "Maria",
+    "title": "one",
+    "likes": 20,
+    "tags": [
+      "tag1",
+      "tag1b"
+    ]
+  },
+  "photo3": {
+    "id": 3,
+    "uploader": "Cristiano",
+    "title": "Ronaldo photo",
+    "likes": 34,
+    "tags": [
+      "tag2",
+      "tag3b"
+    ]
+  },
+  "photo4": {
+    "id": 4,
+    "uploader": "Cristiano",
+    "title": "Ronaldo 2nd photo",
+    "likes": 30,
+    "tags": [
+      "tag4",
+      "tag4b",
+      "tag3",
+      "tag2b",
+      "tag4",
+      "tag5b"
+    ]
+  },
+  "new": {
+    "uploader": "Manel",
+    "title": "two",
+    "likes": 25,
+    "tags": [
+      "tag2",
+      "tag2b"
+    ],
+    "id": "bff3fcb9-484f-4f73-a95f-3240b074b52f"
+  }
+}

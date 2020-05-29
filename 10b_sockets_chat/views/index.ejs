@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <script src="/socket.io/socket.io.js"></script>
+    <title> Chat App</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1> Chat</h1>
+    </header>
+ 
+    <section id="input_zone"> 
+      <input id="message" class="vertical-align" type="text" />
+      <button id="send_message" class="vertical-align" type="button">Send</button>
+      <input id="username" class="vertical-align" type="text" />
+      <button id="send_username" class="vertical-align" type="button">Change Name</button>    
+    </section>
+    
+    <section id="image_zone"> 
+      <form id="uploadForm" method="post" enctype='multipart/form-data'>        
+        <input id="image_upload" type="file" name="imageupload" value="Default name">
+        <input id="upload_btn" type="submit" value="Upload">
+      </form>
+    </section>
+
+    <section id="chatroom">
+    </section>
+
+    <h3>Users connected</h3>
+    <section id="users">  
+    </section>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
