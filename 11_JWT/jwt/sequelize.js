@@ -21,11 +21,9 @@ sequelize.sync({ force: true })
   .then(() => {
     console.log("Tables Created!");
     User.bulkCreate([
-      { email: "dada@gmail.com", password: "test" },
-      { email: "daa@gmail.com", password: "werr" },
-      { email: "fada@gmail.com", password: "tetrtrtst" },
-      { email: "lada@gmail.com", password: "tetryryst" },
-
+      { email: "one@gmail.com", password: "111" },
+      { email: "two@gmail.com", password: "222" },
+      { email: "three@gmail.com", password: "333" },
     ]).then(() => {
       return User.findAll();
     })
